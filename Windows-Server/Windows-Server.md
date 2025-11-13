@@ -87,12 +87,12 @@ Print Services, and Backup Solutions to support business continuity.
 
 - Navigate to **Server Manager** from the **Start Menu** ➝  
   On the top right, click **Manage** ➝ **Add roles and features**
-![Screenshot](images/screenshot05.jpg)
+<img width="1032" height="563" alt="image" src="https://github.com/user-attachments/assets/b45ceb46-044b-48f5-a598-b9b24680fdfb" />
+
 
 **Before you begin:**
-1. Open **Server Manager**.
-2. Click **Next**.
-3. Select **Role-based or feature-based installation**.
+1. Click **Next**.
+3. Select **Add Roles & features**.
 4. Click **Next**.
 5. Click on **Active Directory Domain Services**.
 6. Click **Add Features**.
@@ -100,12 +100,22 @@ Print Services, and Backup Solutions to support business continuity.
 <img width="1018" height="856" alt="image" src="https://github.com/user-attachments/assets/b9faffc8-0240-4dcc-a1a9-dee6e92937ad" />
 
 8. Click **Promote this server to a domain controller**.
+<img width="1030" height="866" alt="image" src="https://github.com/user-attachments/assets/e7fef738-b48c-4ed5-8614-f1ec06c5c240" />
+
 9. Select **Add a new forest**.
-10. Enter the **Root domain name** (e.g., `Njikason.com`).
+10. Enter the **Root domain name** (e.g., `example.com`).
 11. Create a password (e.g., `Password@123`).
 12. Click **Next**.
 13. Wait for **Prerequisites check**.
 14. Click **Install** — it will restart your computer.
+
+<img width="1023" height="865" alt="image" src="https://github.com/user-attachments/assets/70d43ba7-b87d-4501-b4af-ace0aa19588a" />
+
+**Bonus**
+By clicking on **View script** you can aslo execute script command in powershell and install it.
+
+<img width="1031" height="863" alt="image" src="https://github.com/user-attachments/assets/6563ea14-bc43-4211-ad23-637f2bbda6a1" />
+
 
 > **Note:** Active Directory Users & Computers are now installed in the server.
 
